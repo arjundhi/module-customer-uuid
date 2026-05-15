@@ -19,7 +19,7 @@ Add the repo to your `composer.json`:
 "repositories": [
     {
         "type": "vcs",
-    "url": "https://github.com/arjundhi/magento2-customer-uuid.git"
+    "url": "https://github.com/arjundhi/module-customer-uuid.git"
     }
 ]
 ```
