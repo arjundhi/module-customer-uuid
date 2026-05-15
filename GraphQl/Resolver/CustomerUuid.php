@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\GraphQl\Resolver;
+namespace Magematch\CustomerUuid\GraphQl\Resolver;
 
 use Magento\Customer\Model\Customer;
 use Magento\Framework\Exception\LocalizedException;

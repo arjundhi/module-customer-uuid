@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Test\Unit\Setup\Patch\Data;
+namespace Magematch\CustomerUuid\Test\Unit\Setup\Patch\Data;
 
 use Magento\Customer\Model\Customer;
 use Magento\Eav\Model\Config as EavConfig;
@@ -14,8 +14,8 @@ use Magento\Framework\DB\Select;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Quarry\CustomerUuid\Model\UuidGenerator;
-use Quarry\CustomerUuid\Setup\Patch\Data\AddCustomerUuidAttribute;
+use Magematch\CustomerUuid\Model\UuidGenerator;
+use Magematch\CustomerUuid\Setup\Patch\Data\AddCustomerUuidAttribute;
 
 class AddCustomerUuidAttributeTest extends TestCase
 {

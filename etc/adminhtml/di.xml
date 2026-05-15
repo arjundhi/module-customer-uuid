@@ -2,8 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Customer\Model\Customer\DataProviderWithDefaultAddresses">
-        <plugin name="quarry_customer_uuid_readonly_meta"
-                type="Quarry\CustomerUuid\Plugin\Adminhtml\Customer\Form\UuidReadonlyMetaPlugin"
+        <plugin name="magematch_customer_uuid_readonly_meta"
+            type="Magematch\CustomerUuid\Plugin\Adminhtml\Customer\Form\UuidReadonlyMetaPlugin"
                 sortOrder="10"/>
     </type>
 </config>

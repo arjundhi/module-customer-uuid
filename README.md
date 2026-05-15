@@ -1,4 +1,4 @@
-# Quarry_CustomerUuid
+# Magematch_CustomerUuid
 
 This module adds a `uuid` field to every customer and shows it in admin and GraphQL.
 
@@ -27,7 +27,7 @@ Add the repo to your `composer.json`:
 Install and run setup:
 
 ```bash
-composer require quarry/module-customer-uuid
+composer require magematch/module-customer-uuid
 bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento cache:flush
@@ -42,8 +42,8 @@ bin/magento indexer:reindex customer_grid
 ### Manual
 
 ```bash
-cp -r . app/code/Quarry/CustomerUuid
-bin/magento module:enable Quarry_CustomerUuid
+cp -r . app/code/Magematch/CustomerUuid
+bin/magento module:enable Magematch_CustomerUuid
 bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento cache:flush
@@ -72,13 +72,13 @@ query {
 ## Tests
 
 ```bash
-vendor/bin/phpunit app/code/Quarry/CustomerUuid/Test/Unit
+vendor/bin/phpunit app/code/Magematch/CustomerUuid/Test/Unit
 ```
 
 ## Uninstall
 
 ```bash
-bin/magento module:uninstall Quarry_CustomerUuid --remove-data
+bin/magento module:uninstall Magematch_CustomerUuid --remove-data
 ```
 
 ## Backward compatibility

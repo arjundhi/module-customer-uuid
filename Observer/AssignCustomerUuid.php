@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Observer;
+namespace Magematch\CustomerUuid\Observer;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
-use Quarry\CustomerUuid\Model\UuidGenerator;
+use Magematch\CustomerUuid\Model\UuidGenerator;
 
 class AssignCustomerUuid implements ObserverInterface
 {

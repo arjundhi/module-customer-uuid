@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Setup;
+namespace Magematch\CustomerUuid\Setup;
 
 use Magento\Customer\Model\Customer;
 use Magento\Eav\Setup\EavSetupFactory;

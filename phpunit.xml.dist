@@ -5,7 +5,7 @@
          colors="true"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Quarry_CustomerUuid Unit Tests">
+        <testsuite name="Magematch_CustomerUuid Unit Tests">
             <directory>Test/Unit</directory>
         </testsuite>
     </testsuites>

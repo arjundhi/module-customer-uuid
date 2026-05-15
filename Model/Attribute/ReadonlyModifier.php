@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Model\Attribute;
+namespace Magematch\CustomerUuid\Model\Attribute;
 
 use Magento\Ui\DataProvider\Modifier\ModifierInterface;
 

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Test\Unit\Observer;
+namespace Magematch\CustomerUuid\Test\Unit\Observer;
 
 use Magento\Customer\Model\Customer;
 use Magento\Framework\Event\Observer;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Quarry\CustomerUuid\Model\UuidGenerator;
-use Quarry\CustomerUuid\Observer\AssignCustomerUuid;
+use Magematch\CustomerUuid\Model\UuidGenerator;
+use Magematch\CustomerUuid\Observer\AssignCustomerUuid;
 
 class AssignCustomerUuidTest extends TestCase
 {

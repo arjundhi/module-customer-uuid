@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Model;
+namespace Magematch\CustomerUuid\Model;
 
 class UuidGenerator
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Plugin\Adminhtml\Customer\Form;
+namespace Magematch\CustomerUuid\Plugin\Adminhtml\Customer\Form;
 
 class UuidReadonlyMetaPlugin
 {

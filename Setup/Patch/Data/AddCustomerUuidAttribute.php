@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Quarry\CustomerUuid\Setup\Patch\Data;
+namespace Magematch\CustomerUuid\Setup\Patch\Data;
 
 use Magento\Customer\Model\Customer;
 use Magento\Eav\Model\Config as EavConfig;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
-use Quarry\CustomerUuid\Model\UuidGenerator;
+use Magematch\CustomerUuid\Model\UuidGenerator;
 
 class AddCustomerUuidAttribute implements DataPatchInterface
 {

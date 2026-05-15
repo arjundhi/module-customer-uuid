@@ -1,5 +1,5 @@
 {
-    "name": "quarry/module-customer-uuid",
+    "name": "magematch/module-customer-uuid",
     "description": "Assigns a unique UUID v4 attribute to every Magento 2 customer, exposes it via GraphQL, and displays it read-only in the admin customer grid and form.",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -21,12 +21,12 @@
             "registration.php"
         ],
         "psr-4": {
-            "Quarry\\CustomerUuid\\": ""
+            "Magematch\\CustomerUuid\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Quarry\\CustomerUuid\\Test\\": "Test/"
+            "Magematch\\CustomerUuid\\Test\\": "Test/"
         }
     }
 }
