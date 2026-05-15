@@ -1,0 +1,3 @@
+type Customer {
+    uuid: String @resolver(class: "Quarry\\CustomerUuid\\GraphQl\\Resolver\\CustomerUuid") @doc(description: "Unique UUID v4 assigned to the customer.")
+}
