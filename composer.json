@@ -6,12 +6,12 @@
     "license": "MIT",
     "require": {
         "php": ">=8.1",
-        "magento/framework": ">=107.0",
-        "magento/module-customer": ">=103.0",
-        "magento/module-eav": ">=102.0",
-        "magento/module-graph-ql": ">=14.0",
-        "magento/module-customer-graph-ql": ">=100.0",
-        "magento/module-ui": ">=101.0"
+        "magento/framework": "*",
+        "magento/module-customer": "*",
+        "magento/module-eav": "*",
+        "magento/module-graph-ql": "*",
+        "magento/module-customer-graph-ql": "*",
+        "magento/module-ui": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6 || ^10.0"
